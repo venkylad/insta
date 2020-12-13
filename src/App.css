@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: rgb(34, 148, 177);
+}
+
+.app__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: rgb(105, 238, 145);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 20px;
+  border-bottom: 1px solid lightsteelblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__signup {
+  display: flex;
+  flex-direction: column;
+}
+
+.add__posts {
+  padding: 20px;
+}
